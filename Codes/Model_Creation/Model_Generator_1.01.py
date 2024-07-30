@@ -8,12 +8,14 @@ filter size of 3x3 and input shape of 250x250x3 and output shape of 250x250x3
 uses relu as Activation and mse as loss
 '''
 
+from pathlib import Path
 from keras.models import Sequential
 from keras.layers import Conv2D, BatchNormalization, Activation
 from tensorflow.keras.optimizers import Adam
 
-
-model_path = '/home/amogha/Miniproject/models/Model_1.h5'
+current_dir = Path(__file__).parent
+model_path = current_dir / '../../Models/Model_1.01.h5'
+model_path = model_path.resolve()
 
 model = Sequential()
 
