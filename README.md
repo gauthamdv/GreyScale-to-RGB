@@ -18,7 +18,7 @@ This repository provides a pipeline to convert grayscale images to color images 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gauthamdv/GreyScale_to_RGB.git
+   git clone https://github.com/gauthamdv/GreyScale-to-RGB.git
    cd GreyScale_to_RGB
    ```
 
